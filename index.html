@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <!--Utilizamos fontawesome para los iconos de los hipervinculos a redes sociales en el footer-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>ProyectoTaxisLibres</title>
+</head>
+<body>
+    <!--Se crea la class = "d-flex" para hacer referenciar los elementos a los cuales aplicaremos felxbox-->
+    <header class="d-flex align-items-center">
+        <img  width="100" height="40" src="imagenes/logo black.JPG" alt="logo">
+        <nav class="nav-menu align-items-center">
+            <ul type = "none" class="ul-menu d-flex">
+                <li>
+                    <a href="#inicio">Inicio</a>
+                </li>
+                <li>
+                    <a href="#list-objects">Retos</a>
+                </li>
+                <li>
+                    <a href="#cards-premios">Premios</a>
+                </li>
+                <li>
+                    <a href="#patrocinadores">Patrocinadores</a>
+                </li>
+            </ul>
+        </nav>
+        <i class="fas fa-bars"></i>
+    </header>
+    <main>
+        <section class="d-flex" id="inicio">
+            <div id="inicio-info">
+                <img width="100" height="100" src="imagenes/T.png" alt="logo_T">
+                <h1>HACKATHON 2022</h1>
+                <p class="txt-align-justify">Ha llegado el momento de pensar en el futuro.... Así que atención porque tendras la oportunidad de vivir una experiencia única, divertida y
+                    con grandes premios. </p>
+                <a href="formulario.html" class="botton" target="black">Inscribete</a>
+            </div>
+            <div id="fecha">
+                <h3 class="txt-align-center">Fecha: del 7 al 9 de junio <br>Lugar: Bogotá D.C.</h3>
+            </div>
+        </section>
+        <!--Esta la sección del objetivo de la Hackathon-->
+        <section class="d-flex objects">
+            <div id="objetc">
+                <h2 class="txt-align-center"> La aventura hecha Hackathon</h2>
+                <p class="txt-align-justify"> Se busca generar espacios creativos para que los colombianos puedan desarrollar sus ideas y 
+                    demostrar su talento resolviendo los cinco aspectos que son clave para los temas de movilidad, 
+                    tecnología y sostenibilidad:
+                </p>
+                <img width="350" height="300" src="imagenes/image object.jpg" alt="Image object">
+            </div>
+            <div id="list-objects"> 
+                <!--Se crea la class = "descripcion" en la etiqueta <p></p> ya que esta tendra un estilo diferente-->
+                <h3 num="1" class="subtitle"> Ciudades más seguras </h3>
+                <p class="txt-align-justify">¿Cómo podría Taxis Libres ser participe de la seguridad en el transporte?</p>
+                <h3 num="2" class="subtitle"> Remuneración a los conductores </h3>
+                <p class="txt-align-justify">¿Qué solución implementarias para generar mejores ingresos en los conductores y empleados?</p>
+                <h3 num="3" class="subtitle"> Logistica en las ciudades </h3>
+                <p class="txt-align-justify">¿De qué manera Taxis Libres podría ayudar en la logistica de las ciudades?</p>
+                <h3 num="4" class="subtitle"> Calidad del aire </h3>
+                <p class="txt-align-justify">¿Cómo Taxis Libres puede impactar de manera positiva en la disminución de emisiones de gases de efecto invernadero?</p>
+                <h3 num="5" class="subtitle"> Analitica predictiva </h3>
+                <p class="txt-align-justify">¿De que forma se puede optimizar la oferta y distribución del servicio temporal y 
+                    espacial mendiante el uso de modelos análiticos?</p>
+            </div>
+        </section>
+        <section id="cards-premios" class="txt-align-center">
+            <h2 class="txt-align-center">Premios y beneficios</h2>
+            <div class="d-flex">
+                <div>
+                    <img width="150" height="150" src="imagenes/certificado.jpg" alt="Certificado de participación">
+                    <h3 class="txt-align-center">Certificado de participación</h3>
+                    <p class="txt-align-justify">Todos los participantes recibiran un certificado de participacion y asistencia.</p>
+                </div>
+                <div>
+                    <img width="150" height="150" src="imagenes/Cursos.jpg" alt="Licencia para cursos">
+                    <h3 class="txt-align-center">Licencias para cursos en plataformas reconocidas</h3>
+                    <p class="txt-align-justify">Licencias para cursos en plataformas como Platzi, Datacamp, Coursera, Udemy, IBM, Cisco y más.</p>
+                </div>
+                <div>
+                    <img width="150" height="150" src="imagenes/Dinero.jpg" alt="Bolsa de dinero">
+                    <h3 class="txt-align-center">Más de 5.000 USD entre los ganadores</h3>
+                    <p class="txt-align-justify">Este fondo será distribuido entre los tres mejores equipos y/o proyectos.</p>
+                </div>
+            </div>
+            <a href="formulario.html" class="botton" target="black">Inscribete</a>
+        </section>
+        <section id="patrocinadores">
+            <h2 class="txt-align-center">Patrocinadores</h2>
+            <div class="d-flex">
+                <img width="210" height="100" src="imagenes/UANDES.png" alt="Logo Universidad de los Andes">
+                <img width="210" height="100" src="imagenes/platzi.png" alt="Logo Platzi">
+                <img width="210" height="100" src="imagenes/coursera.png" alt="Logo Coursera">
+            </div>
+        </section>
+    </main>
+    <footer class="d-flex">
+        <div>
+            <img width="210" height="100" src="imagenes/logo footer p.png" alt="Logo Taxis Libres">
+            <div>
+                <a href="https://www.facebook.com/taxislibrescol" target="blank">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="https://www.youtube.com/c/TaxisLibresCol" target="blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://twitter.com/taxislibrescol" target="blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/taxis-libres/" target="blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/taxislibres/?hl=es" target="blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <div id="menu-footer">
+            <nav>
+                <ul type="none">
+                    <li>
+                        <a href="#inicio">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#list-objects">Retos</a>
+                    </li>
+                    <li>
+                        <a href="#cards-premios">Premios</a>
+                    </li>
+                    <li>
+                        <a href="#patrocinadores">Patrocinadores</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

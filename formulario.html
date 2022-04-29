@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Proyecto Formulario Taxis Libres</title>
+</head>
+<body>
+    <header class="d-flex align-items-center">
+        <img  width="100" height="40" src="imagenes/logo black.JPG" alt="logo">
+        <nav class="nav-menu align-items-center">
+            <ul type = "none" class="ul-menu d-flex">
+                <li>
+                    <a href="#inicio">Inicio</a>
+                </li>
+                <li>
+                    <a href="#list-objects">Retos</a>
+                </li>
+                <li>
+                    <a href="#cards-premios">Premios</a>
+                </li>
+                <li>
+                    <a href="#patrocinadores">Patrocinadores</a>
+                </li>
+            </ul>
+        </nav>
+        <i class="fas fa-bars"></i>
+    </header>
+    <main>
+        <form action="#" method="post">
+            <div id="Encabezado">
+                <img width="100" height="100" src="imagenes/T.png" alt="logo_T">
+                <h1>HACKATHON 2022</h1>
+                <h2>Formulario de Inscripción</h2>
+                <p></p>
+            </div>
+            <div id="campos">
+                <div>
+                    <label>Nombre: </label>
+                    <input type="text" name="Nombre" id="Nombre" placeholder="Escribe tus nombres" required>
+                </div>
+                <div>
+                    <label>Apellidos: </label>
+                    <input type="text" name="PrimerApellidos" id="Primer Apellidos" placeholder="Escribe tus apellidos" required>
+                </div>
+                <div>
+                    <label>Numero de identificación: </label>
+                    <input type="text" name="identificación" id="id" placeholder="Tu numero de identificacion">
+                </div>
+                <div>
+                    <label>Correo Electronico: </label>
+                    <input type="email" name="email" id="email" placeholder="Escribe tu email">
+                </div>
+                <div>
+                    <label>Telefono: </label>
+                    <input type="tel" name="tel" id="tel" placeholder="Numero de contacto">
+                </div>
+                <div>
+                    <label>Pais: </label>
+                    <select name="pais" id="pais">
+                        <option value="Arg">Argentina</option>
+                        <option value="Bo">Bolivia</option>
+                        <option value="Bra">Brasil</option>
+                        <option value="Co">Colombia</option>
+                        <option value="Chi">Chile</option>
+                        <option value="Ecu">Ecuador</option>
+                        <option value="Par">Paraguai</option>
+                        <option value="Per">Peru</option>
+                        <option value="Uru">Uruguay</option>
+                        <option value="Ve">Venezuela</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="submit" class="botton">Inscripción</button>
+                </div>
+            </div>
+        </form>
+        <img width="500" src="./imagenes/background formulario.png" alt="" 
+        id="formBackground">
+    </main>
+    <footer class="d-flex">
+        <div>
+            <img width="210" height="100" src="imagenes/logo footer p.png" alt="Logo Taxis Libres">
+            <div>
+                <a href="https://www.facebook.com/taxislibrescol" target="blank">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="https://www.youtube.com/c/TaxisLibresCol" target="blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://twitter.com/taxislibrescol" target="blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/taxis-libres/" target="blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/taxislibres/?hl=es" target="blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
